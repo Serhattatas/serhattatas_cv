@@ -1,0 +1,55 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+body{
+   
+    font-family: roboto-regular, Verdana;
+}
+section{
+    display: flex;
+}
+
+header{
+
+    text-align: center;
+}
+.pb_img1 img{
+    width: 900px;
+}
+.pb_img2 img{
+    width: 900px;
+}
+
+.pb_text1{
+    border: 2px solid black;
+    height: 490px;
+    width: 700px;
+    margin-right: 20px;
+    margin-left: 20px;
+    overflow-y: scroll;
+}
+.pb_text2{
+    border: 2px solid black;
+    height: 490px;
+    width: 700px;
+    margin-right: 20px;
+    margin-left: 20px;
+    overflow-y: scroll;
+}
+hr{
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+footer {
+    background: #79838a;
+    color:rgb(204, 202, 202);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
